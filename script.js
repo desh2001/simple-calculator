@@ -28,7 +28,7 @@ function multiply() {
 }
 
 // Division function - TO BE IMPLEMENTED BY STUDENT 5
-function divide() {
+
   function divide() {
     const { num1, num2 } = getInputs();
     if (isNaN(num1) || isNaN(num2)) {
@@ -41,6 +41,4 @@ function divide() {
     }
     const result = num1 / num2;
     displayResult(result);
-}
-    alert('Division not implemented yet!');
 }
