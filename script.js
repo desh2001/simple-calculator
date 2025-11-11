@@ -26,7 +26,6 @@ function add() {
 }
 
 // Subtraction function - TO BE IMPLEMENTED BY STUDENT 3
-function subtract() {
    
 function subtract() {
     const { num1, num2 } = getInputs();
@@ -38,7 +37,7 @@ function subtract() {
     displayResult(result);
 }
 
-}
+
 
 // Multiplication function - TO BE IMPLEMENTED BY STUDENT 4
 function multiply() {
